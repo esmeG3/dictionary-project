@@ -1,3 +1,15 @@
 .App {
   text-align: center;
 }
+
+.App header {
+  font-size: 33px;
+  padding: 20px;
+}
+
+.App footer {
+  padding: 20px;
+  margin-top: 10px;
+  font-size: 12px;
+  opacity: 0.8;
+}
