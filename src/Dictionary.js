@@ -16,7 +16,6 @@ export default function Dictionary() {
     let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
     axios.get(apiUrl).then(handleResponse);  
 }
-  // https://api.shecodes.io/dictionary/v1/define?word=sunset&key=982865b6c020427a6364ef4b31o6dt0f
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
