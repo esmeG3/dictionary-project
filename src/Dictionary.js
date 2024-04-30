@@ -38,9 +38,10 @@ if (loaded) {
       <form onSubmit={handleSubmit}>
         <input
           type="search"
-          placeholder="definition of.."
           onChange={handleKeywordChange}
+          defaultValue={props.defaultKeyword}
         />
+        
         <input type="submit" value="Search" />{" "}
       </form>
       <Results results={results} />
