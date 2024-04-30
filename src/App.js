@@ -9,7 +9,7 @@ export default function App() {
     Dictionary
   </header>
   <main>
-    <Dictionary/>
+    <Dictionary defaultKeyword="springtime"/>
   </main>
   <footer>
     Coded by EsmeG
