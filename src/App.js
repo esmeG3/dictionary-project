@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
 <div className="container-sm">
   <main>
-    <Dictionary defaultKeyword="home"/>
+    <Dictionary defaultKeyword="springtime"/>
   </main>
   <footer>
     Coded by EsmeG

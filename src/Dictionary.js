@@ -36,7 +36,7 @@ if (loaded) {
   return (
     <div className="Dictionary">
       <h1>
-        Dictionary
+        Dictionary 📚
       </h1>
       <form onSubmit={handleSubmit}>
         <input
