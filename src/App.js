@@ -4,12 +4,9 @@ import Dictionary from './Dictionary';
 export default function App() {
   return (
     <div className="App">
-<div className='container'>
-  <header>
-    Dictionary
-  </header>
+<div className="container-sm">
   <main>
-    <Dictionary defaultKeyword="springtime"/>
+    <Dictionary defaultKeyword="home"/>
   </main>
   <footer>
     Coded by EsmeG

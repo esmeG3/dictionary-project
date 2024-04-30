@@ -34,7 +34,10 @@ export default function Dictionary(props) {
 
 if (loaded) {
   return (
-    <div className="dictionary">
+    <div className="Dictionary">
+      <h1>
+        Dictionary
+      </h1>
       <form onSubmit={handleSubmit}>
         <input
           type="search"
@@ -42,7 +45,9 @@ if (loaded) {
           defaultValue={props.defaultKeyword}
         />
         
-        <input type="submit" value="Search" />{" "}
+        <button type="submit" class="btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
       </form>
       <Results results={results} />
     </div>

@@ -1,0 +1,13 @@
+.Synonyms li {
+list-style: none;
+color: #E788AB;
+display: inline-block;
+margin-right: 15px;
+font-weight: 400;
+line-height: 1;
+font-size: 18px;
+}
+
+ul {
+margin-top: 5px;
+}
