@@ -5,7 +5,12 @@
 
 .App footer {
   padding: 20px;
-  margin-top: 10px;
   font-size: 12px;
   opacity: 0.8;
+}
+
+.App footer a {
+  text-decoration: none;
+  color: #FC3F93;
+  font-size: 14px;
 }
