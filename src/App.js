@@ -9,14 +9,27 @@ export default function App() {
           <Dictionary defaultKeyword="springtime" />
         </main>
         <footer>
-          Coded by <a href="https://github.com/esmeG3">Esme G 🤍</a> open
-          sourced on{" "}
-          <a href="https://github.com/esmeG3/dictionary-project">
+          Coded by{" "}
+          <a href="https://github.com/esmeG3" target="_blank" rel="noreferrer">
+            Esme G 🤍
+          </a>{" "}
+          open sourced on{" "}
+          <a
+            href="https://github.com/esmeG3/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
             {" "}
             Github <i className="fa-brands fa-github"></i>
           </a>{" "}
           and hosted on{" "}
-          <a href="https://this-is-a-dictionary.netlify.app/">Netlify</a>
+          <a
+            href="https://this-is-a-dictionary.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify 👩🏻‍💻
+          </a>
         </footer>
       </div>
     </div>

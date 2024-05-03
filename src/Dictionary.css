@@ -21,14 +21,14 @@ margin-top: 30px;
 }
 
 .Dictionary button {
-    padding: 8px 15px;
+    padding: 4px 14px;
     margin: 0 auto;
-    border-radius: 4px;
+    border-radius: 30px;
     font-size: 20px;
     line-height: 1;
-    border: 1px solid #33673B;
-    background-color: #A4DC93;
+    border: none;
+    background-color:  rgba(	164, 220, 147, 0.9);
     color: #E788AB;
-    box-shadow: 0px 2px 10px 1px rgba(0, 0 ,0 , 25%);
+    box-shadow: 0px 2px 8px 1px rgba(0, 0 ,0 , 25%);
 
 }
