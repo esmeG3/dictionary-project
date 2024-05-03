@@ -13,7 +13,7 @@ export default function App() {
           sourced on{" "}
           <a href="https://github.com/esmeG3/dictionary-project">
             {" "}
-            Github <i class="fa-brands fa-github"></i>
+            Github <i className="fa-brands fa-github"></i>
           </a>{" "}
           and hosted on{" "}
           <a href="https://this-is-a-dictionary.netlify.app/">Netlify</a>
